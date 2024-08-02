@@ -19,7 +19,7 @@ func LoadConfig() *Config {
 	cfg := &Config{
 		APIURL:         getEnv("API_URL", "https://default-api-url.com"),
 		APIKey:         getEnv("API_KEY", ""),
-		MongoURI:       getEnv("MONGO_URI", "mongodb+srv://cryptoclub:mgJu21OgpSkR5qqD@renegado.fr5ai7g.mongodb.net/?retryWrites=true&w=majority&appName=Renegado"),
+		MongoURI:       getEnv("MONGO_URI", "https://localhost-mongodb:57921"),
 		DBName:         getEnv("DB_NAME", "defaultDB"),
 		CollectionName: getEnv("COLLECTION_NAME", "defaultCollection"),
 	}
