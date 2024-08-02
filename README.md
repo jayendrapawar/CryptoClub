@@ -47,7 +47,6 @@
 
 #### Create a .env file and add your environment variables:
 
-API_URL=your_api_url
   - API_URL=your_api_url
   - API_KEY=your_api_key
   - MONGO_URI=your_mongodb_uri
