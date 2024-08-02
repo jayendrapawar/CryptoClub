@@ -15,7 +15,7 @@ func FetchCryptoData(apiURL, apiKey string) ([]models.CryptoData, error) {
 		"sort": "rank",
 		"order": "ascending",
 		"offset": 0,
-		"limit": 2,
+		"limit": 20,
 		"meta": false
 	}`)
 
